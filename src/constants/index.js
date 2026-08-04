@@ -1,223 +1,115 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Travel Booking Platform",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "A full-stack travel booking web application enabling users to explore destinations, personalized tour packages, and contact travel organizers seamlessly.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Developed a full-stack travel booking web application enabling users to explore destinations, personalized tour packages, and contact travel organizers seamlessly.",
+      "Built reusable React components for dynamic destination listings and integrated REST APIs for real-time booking and data management.",
+      "Implemented secure backend using Express.js and MongoDB with efficient CRUD operations for users and bookings.",
+      "Designed a fully responsive, mobile-friendly UI using Bootstrap and custom CSS, ensuring a smooth user experience across all devices.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/accessories.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Blazor Web App",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
+    href: "https://github.com/harshaalapati/travel-booking-platform",
+    liveDemo: "https://travel-booking-harsha.vercel.app", // Replace with your actual live demo
     logo: "",
     image: "/assets/projects/elearning.jpg",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 4,
+        name: "CSS3",
+        path: "/assets/logos/css3.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "AI Resume Builder",
+    description:
+      "An AI-powered resume builder using React.js and Gemini API, leveraging JavaScript-based frontend development to generate professional, context-aware resume content.",
+    subDescription: [
+      "Developed an AI-powered resume builder using React.js and Gemini API, leveraging JavaScript-based frontend development to generate professional, context-aware resume content.",
+      "Implemented dynamic form handling with robust input validations, ensuring real-time feedback and an intuitive, error-free user experience.",
+      "Crafted a sleek, responsive interface using Bootstrap and custom CSS, focusing on usability, accessibility, and modern design principles.",
+      "Deployed the application on Vercel for optimized build performance, fast load times, and seamless public accessibility.",
+    ],
+    href: "https://github.com/harshaalapati/ai-resume-builder",
+    liveDemo: "https://ai-resume-builder-harsha.vercel.app", // Replace with your actual live demo
+    logo: "",
+    image: "/assets/projects/auth-system.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 3,
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
+      },
+      {
+        id: 4,
+        name: "CSS3",
+        path: "/assets/logos/css3.svg",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Personal Portfolio Website",
+    description:
+      "A modern 3D portfolio website showcasing technical skills and projects with interactive animations.",
+    subDescription: [
+      "Built with React.js, Three.js, and modern web technologies for an immersive user experience.",
+      "Implemented 3D animations and interactive elements using React Three Fiber.",
+      "Designed responsive layouts with TailwindCSS for optimal viewing across all devices.",
+      "Integrated EmailJS for seamless contact form functionality and professional communication.",
+    ],
+    href: "https://github.com/harshaalapati/portfolio-website",
+    liveDemo: "https://harsha-alapati.vercel.app", // Replace with your actual live demo
+    logo: "",
+    image: "/assets/projects/blazor-app.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 3,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 4,
+        name: "Git",
+        path: "/assets/logos/git.svg",
       },
     ],
   },
@@ -225,104 +117,94 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    name: "GitHub",
+    href: "https://github.com/harshaalapati",
+    icon: "/assets/logos/github.svg",
   },
   {
-    name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/harsha-alapati/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
+    name: "WhatsApp",
+    href: "https://wa.me/919103582173",
+    icon: "/assets/socials/whatsApp.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Frontend Developer Intern",
+    job: "Bluestock Fintech",
+    date: "2024 (2 Months)",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Led a 3-member frontend team to build a financial data platform, achieving 100% sprint completion within deadlines.",
+      "Designed and implemented responsive UIs using Bootstrap, HTML5, and JavaScript for real-time financial updates.",
+      "Optimized component performance, ensuring smooth rendering and enhanced user experience across devices.",
+      "Collaborated with backend teams to integrate RESTful APIs for real-time data visualization and financial analytics.",
+      "Implemented modern UI/UX principles to create intuitive interfaces for financial data consumption.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Student & Developer",
+    job: "National Institute of Technology, Srinagar",
+    date: "2022-Present",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Pursuing Bachelor of Technology in Information Technology with focus on Full Stack Web Development.",
+      "Led the Video Editing Team at Robonox Club, NIT Srinagar — managed a 5-member creative unit to produce promotional and technical videos.",
+      "Increased robotics event engagement by 30% through innovative video content and strategic social media presence.",
+      "Actively learning and implementing modern web technologies including React.js, Node.js, and MongoDB.",
+      "Developing practical skills in responsive UI design, API integration, and database management systems.",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Achievements & Leadership",
+    job: "Sports & Extracurricular",
+    date: "2019-Present",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Represented at the Under-14 National Cricket Tournament, demonstrating teamwork, focus, and discipline at a national level.",
+      "Led creative initiatives at NIT Srinagar, showcasing leadership and project management skills.",
+      "Completed coursework in Data Structures & Algorithms, Database Management Systems, and Software Engineering.",
+      "Gained expertise in Object-Oriented Programming, Operating Systems, and Artificial Intelligence fundamentals.",
     ],
   },
 ];
 export const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
+    name: "Team Lead",
+    username: "@bluestock_fintech",
+    body: "Harsha's leadership and technical skills helped our team achieve 100% sprint completion. Excellent frontend development capabilities.",
+    img: "https://robohash.org/teamlead",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
+    name: "Robonox Club",
+    username: "@robonox_nit",
+    body: "Outstanding video editing and team management skills. Increased our event engagement by 30% through creative content.",
+    img: "https://robohash.org/robonox",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
+    name: "Project Collaborator",
+    username: "@developer",
+    body: "Great full-stack development skills. The travel booking platform was built with excellent attention to detail and user experience.",
+    img: "https://robohash.org/collaborator",
   },
   {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
+    name: "NIT Peer",
+    username: "@nit_student",
+    body: "Harsha's dedication to learning and implementing modern web technologies is impressive. A reliable team player.",
+    img: "https://robohash.org/peer",
   },
   {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
+    name: "Mentor",
+    username: "@tech_mentor",
+    body: "Solid understanding of React.js, Node.js, and database management. Shows great potential in full-stack development.",
+    img: "https://robohash.org/mentor",
   },
   {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
+    name: "Cricket Teammate",
+    username: "@cricket_team",
+    body: "Represented us well at the national level. Shows the same dedication and teamwork in tech projects.",
+    img: "https://robohash.org/teammate",
   },
 ];
